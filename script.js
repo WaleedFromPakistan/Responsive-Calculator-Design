@@ -21,7 +21,10 @@ document.getElementById("000").onclick = function () {
 
     document.getElementById("display").value += "000";
 }
+document.getElementById(".").onclick = function () {
 
+    document.getElementById("display").value += ".";
+}
 document.getElementById("1").onclick = function () {
 
     document.getElementById("display").value += "1";
